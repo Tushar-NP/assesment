@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4d5b10da9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="MAEF.CSS" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <title>MAEF Homepage Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="head-container max-width">
+        <div class="head-data-1">
+          <span class="updated">Last Updated: 29th Dec, 2021</span>
+          <i class="fa-brands fa-facebook-f facebook"></i>
+          <i class="fa-brands fa-twitter twitter"></i>
+        </div>
+        <div class="head-data-2">
+          <span
+            >Skip to Main Content | Screen Reader Access | A A+ A++ |
+            <span class="A-black">A</span> <span class="A-white">A</span>|
+            English</span
+          >
+        </div>
+      </div>
+    </header>
+
+    <header class="header">
+      <div class="header-container max-width">
+        <div class="">
+          <img src="/HTML-CSS-assesment/img/maef_logo.png" alt="" class="Grant-in-Aid" />
+        </div>
+        <div class="header-img-2">
+          <img src="/HTML-CSS-assesment/img/emblem.png" alt="" class="emblem" />
+          <img
+            src="/HTML-CSS-assesment/img/swach-removebg-preview.png"
+            alt=""
+            class="swach-bharat"
+          />
+        </div>
+      </div>
+    </header>
+
+    <nav class="navigation">
+      <div>
+        
+        <div class="navigation-container max-width">
+         <div class="nav-menu">
+           <ul class="navigation-data menu-container">
+             <li class="home nav-item">HOME</li>
+             <li class="nav-item dropdown">
+               <button class="drop-btn">
+                 ABOUT US
+                 <i class="fa fa-caret-down"></i>
+               </button>
+             </li>
+             <li class="nav-item dropdown">
+               <button class="drop-btn">
+                 RESOURCES
+                 <i class="fa fa-caret-down"></i>
+               </button>
+               <div class="dropdown-content">
+                 <a href="#">LATEST NOTICE</a>
+                 <a href="#">CIRCULARS</a>
+                 <a href="#">ARCHIVES</a>
+               </div>
+             </li>
+             <li class="nav-item dropdown">
+               <button class="drop-btn">
+                 NOTICE BOARD
+                 <i class="fa fa-caret-down"></i>
+               </button>
+               <div class="dropdown-content">
+                 <a href="#">LATEST NOTICE</a>
+                 <a href="#">CIRCULARS</a>
+                 <a href="#">ARCHIVES</a>
+               </div>
+             </li>
+             <li class="nav-item"><button class="drop-btn">
+               DOWNLOAD
+             </button></li>
+             <li class="nav-item"><button class="drop-btn">
+               CONTACT US
+             </button></li>
+           </ul>
+           <div class="responsive-menu" onclick="menuTrigger()">
+             <i class="fa-solid fa-bars menu"></i>
+           </div>
+         </div>
+          <span><i class="fa-solid fa-magnifying-glass search"></i></span>
+          <div class="dropdown login">
+            <div class="navigation-btn login-content">
+              <a href="#" class="nav-btn nav-btn-login">LOGIN</a>
+                <a href="#" class="nav-btn nav-btn-register">REGISTRATION</a>
+              </div>
+              <div onclick="menuTriger()">
+
+                <i class="fa-solid fa-user-plus login-button"></i>
+              </div>
+          </div>
+        </div>
+    </nav>
+
+    <section class="main">
+      <div class="main-left-arrrow">
+        <i class="fa-solid fa-circle-arrow-left arrow-main left-arrow"></i>
+      </div>
+      <div class="main-container max-width">
+        
+        <div>
+          <img src="/HTML-CSS-assesment/img/banner.png" alt="" class="banner" />
+        </div>
+        <!-- <div class="owl-carousel owl-theme"> -->
+          
+      </div>
+        <!-- <div class="dots">
+          <div class="dots-1"></div>
+          <div class="dots-1"></div>
+          <div class="dots-1"></div>
+          <div class="dots-1"></div>
+          <div class="dots-1"></div>
+        </div> -->
+      </div>
+      <div class="main-right-arrrow">
+        <i class="fa-solid fa-circle-arrow-right arrow-main right-arrow"></i>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div class="about-us-container max-width">
+        <div>
+          <h2 class="about-heading">About Maulana Azad Education Foundation</h2>
+          <p class="about-data">
+            The Foundation was established on the occasion of Maulana Abul Kalam
+            Azad's birth centenary celebrations. His eventful life was packed
+            with outstanding achievements in the diverse fields. He was towering
+            figure on the Indian political scene and a scholar rated high in the
+            realms of Urdu Literature.
+          </p>
+          <p class="about-data about-data-1">
+            To this, he added a trend-setting innings as a journalist. But his
+            greatest claim to fame was his contribution as a thinker with a
+            world vision and humanist outlook. A dogged freedom fighter and an
+            un-failing upholder of secular and democratic values. Maulana Azad
+            deserves to be introduced afresh to the modern generation of
+            Indians.
+            <!-- The Foundation is a voluntary, non-political, non-profit
+            making social service organization, established to promote education
+            amongst educationally backward sections of the Society. It is fully
+            funded by the Ministry of Minority Affairs, Govt. of India. The
+            Hon'ble Minister of Minority Affairs is Ex-Officio President of the
+            Foundation. It was registered under the Societies Registration Act,
+            1860 on 6th July 1989. -->
+          </p>
+          <a href="#" class="about-btn"
+            >Read More <i class="fa-solid fa-chevron-right"></i
+          ></a>
+        </div>
+        <div class="carts">
+          <div class="about-cart about-cart-1">
+            <img src="/HTML-CSS-assesment/img/mukhtar_abbas.png" alt="" class="about-img" />
+            <div class="person">
+              <p class="person-post">President, MAEF</p>
+              <p class="person-name">Shri Mukhtar Abbas Naqvi</p>
+              <p class="person">
+                Hon’ble Minister of Minority Affairs, Govt. of India
+              </p>
+              <a href="#" class="about-link">Read More</a>
+            </div>
+          </div>
+          <div class="about-cart">
+            <img src="/HTML-CSS-assesment/img/sp_singh.png" alt="" class="about-img" />
+            <div class="person">
+              <p class="person-post">Management Board</p>
+              <p class="person-name">Shri S.P. Singh Teotia</p>
+              <p class="person">
+                Deputy Secretary, MoMA and Additional Charge of Secretary & CEO,
+                MAEF
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section">
+      <div class="news-container max-width">
+        <div class="news">
+          <h3 class="news-heading">Latest News</h3>
+          <div class="news-1">
+            <div class="news-box">
+              <div class="news-data">
+                <i class="fa-solid fa-file-pdf pdf-icon"></i>
+                <div>
+                  <h4 class="news-date">07-Dec-2021</h4>
+                  <p>
+                    Request for Proposal (RFP) for empanelment of PIA to
+                    conceptualize, design, plan, coordinate, manage and execute
+                    the Hunar Haat
+                  </p>
+                </div>
+              </div>
+              <div class="news-data">
+                <i class="fa-solid fa-file-pdf pdf-icon"></i>
+                <div>
+                  <h4 class="news-date">25-Nov-2021</h4>
+                  <p>
+                    Bid Document for Selection of PIA to Organize Hunar Haat at
+                    JLN, New Delhi from 22nd December, 2021 to 2nd January, 2022
+                  </p>
+                </div>
+              </div>
+              <div class="news-data">
+                <i class="fa-solid fa-file-pdf pdf-icon"></i>
+                <div>
+                  <h4 class="news-date">23-Nov-2021</h4>
+                  <p>
+                    Bid Document for Selection of PIA to Organize Hunar Haat at
+                    Surat, Gujarat from 11th to 20th December, 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news">
+          <h3 class="news-heading">Dashboard</h3>
+          <div>
+            <div class="dashboard-data">
+              <div class="dashboard-box">
+                <div>
+                  <h3 class="dashboard-heading">
+                    STATUS OF GRANT-IN-AID SCHEME
+                  </h3>
+                  <div class="dashboard-box-1">
+                    <div class="dashboard-sanction">
+                      <div class="sanction-data">
+                        <p>Total Number of Sanctions</p>
+                        <h3>1669</h3>
+                      </div>
+                      <div class="sanction-data">
+                        <p>Total Amount Sanctioned</p>
+                        <h3>220.30 Crore</h3>
+                      </div>
+                    </div>
+                    <div class="dashboard-text">
+                      <p>
+                        Please select a State/UT on the interactive map or
+                        search for the name below to continue.
+                      </p>
+                    </div>
+                    <div class="states">
+                      <select name="" id="know" class="states-select">
+                        <option value="">Haryana</option>
+                        <option value="">Uttar Pardesh</option>
+                        <option value="">Rrajasthan</option>
+                        <option value="">Tamil Nadu</option>
+                        <option value="">Delhi</option>
+                        <option value="">bihar</option>
+                      </select>
+                    </div>
+                    <div class="dashboard-sanction">
+                      <div class="sanction-data dashboard-sanction-2">
+                        <p>Number of Sanctions</p>
+                        <h3 class="sanction-detail">100</h3>
+                      </div>
+                      <div class="sanction-data dashboard-sanction-2">
+                        <p>Amount Sanctioned</p>
+                        <h3 class="sanction-detail">20 Crore</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="india-map"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="gallerycontainer max-width">
+        <div class="gallery-head">
+          <a href="#" class="gallery-head-data">Photo gallery</a>
+          <a href="#" class="gallery-head-data">Video gallery</a>
+        </div>
+        <div class="gallery-img-container">
+          <img src="/HTML-CSS-assesment/img/pic1.png" alt="" class="gallery-img" />
+          <img src="/HTML-CSS-assesment/img/pic2.png" alt="" class="gallery-img" />
+          <img src="/HTML-CSS-assesment/img/pic3.png" alt="" class="gallery-img" />
+          <img src="/HTML-CSS-assesment/img/pic4.png" alt="" class="gallery-img" />
+          <img src="/HTML-CSS-assesment/img/pic5.png" alt="" class="gallery-img" />
+          <img src="/HTML-CSS-assesment/img/pic6.png" alt="" class="gallery-img" />
+          <img src="/HTML-CSS-assesment/img/pic7.png" alt="" class="gallery-img" />
+          <img src="/HTML-CSS-assesment/img/pic8.png" alt="" class="gallery-img" />
+          <a href="#" class="about-btn"
+            >View All <i class="fa-solid fa-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      
+      <div class="partners-container max-width">
+        <div class="partner-img-container owl-carousel owl-theme">
+          <img src="/HTML-CSS-assesment/img/c_logo1.png" alt="" class="partner-img" />
+          <img src="/HTML-CSS-assesment/img/c_logo2.png" alt="" class="partner-img" />
+          <img src="/HTML-CSS-assesment/img/c_logo3.png" alt="" class="partner-img" />
+          <img src="/HTML-CSS-assesment/img/c_logo4.png" alt="" class="partner-img" />
+          <img src="/HTML-CSS-assesment/img/c_logo5.png" alt="" class="partner-img" />
+        </div>
+      </div>
+      
+    </section>
+
+    <footer class="footer">
+      <!-- <div class="footer-heading"> -->
+        <!-- <div class="max-width footer-heading-data"> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <div class="footer-container max-width">
+        <div class="footer-list">
+          <div>
+            <ul>
+              <h4>COMPANY INFO</h4>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>About Us
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>Gallery
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>Services
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>Schemes
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>Tenders
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>Media
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>Contact Us
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+          <h4>QUICK LINKS</h4>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>
+                  <p> Notice Board</p>
+                </div>
+                </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i>
+                  <p>RTI</p>
+                </div>
+                </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i> <p>Reports</p>
+                </div>
+                </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i> <p> Accessibility
+                  Statement</p>
+                </div>
+              </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i> <p> Site Map</p>
+                </div>
+                </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i> <p> Feedback</p>
+                </div>
+                </li>
+              <li class="footer-list-item">
+                <div class="footer-item">
+
+                  <i class="fa-solid fa-play footer-icon"></i> <p> Help</p>
+                </div>
+                </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+          <h4>OTHER LINKS</h4>
+              <li class="footer-list-item">
+                <i class="fa-solid fa-play footer-icon"></i>Copyright Policy
+              </li>
+              <li class="footer-list-item">
+                <i class="fa-solid fa-play footer-icon"></i>Disclaimer
+              </li>
+              <li class="footer-list-item">
+                <i class="fa-solid fa-play footer-icon"></i>Hyperlink Policy
+              </li>
+              <li class="footer-list-item">
+                <i class="fa-solid fa-play footer-icon"></i>Privacy Policy
+              </li>
+              <li class="footer-list-item">
+                <i class="fa-solid fa-play footer-icon"></i>Terms & Conditions
+              </li>
+              <li class="footer-list-item">
+                <i class="fa-solid fa-play footer-icon"></i>Terms of Use
+              </li>
+              <li class="footer-list-item">
+                <i class="fa-solid fa-play footer-icon"></i>Security Policy
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+          <h4>CONTACT US</h4>
+              <li class="footer-list-item">
+                Maulana Azad Education Foundation, Maulana Azad Campus,
+                Chelmsford Road, New Delhi-110055
+              </li>
+              <li class="footer-list-item">Phone: 011-23561945, 23583789</li>
+              <li class="footer-list-item">E-mail: gia-maef[at]nic[dot]in</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-end">
+          <p class="footer-end-data">
+            Copyright © 2022 - All Rights Reserved - Maulana Azad Education
+            Foundation, Ministry of Minority Affairs, Government of India
+          </p>
+          <i class="fa-brands fa-facebook-f facebook-footer"></i>
+          <i class="fa-brands fa-twitter twitter-footer"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+      function menuTrigger() {
+        if(document.querySelector('.menu-container').style.display=='none'){
+          document.querySelector('.menu-container').style.display = 'block';
+
+        }
+        else{
+          document.querySelector('.menu-container').style.display = 'none';
+
+        }
+      }
+      function menuTriger(){
+        if(document.querySelector('.login-content').style.display=='none'){
+          document.querySelector('.login-content').style.display = 'flex';
+
+        }
+        else{
+          document.querySelector('.login-content').style.display = 'none';
+
+        }
+
+      }
+
+      // highchart code 
+      (async () => {
+
+const topology = await fetch(
+    'https://code.highcharts.com/mapdata/countries/in/custom/in-all-disputed.topo.json'
+).then(response => response.json());
+
+// Prepare demo data. The data is joined to map using value of 'hc-key'
+// property by default. See API docs for 'joinBy' for more info on linking
+// data and map.
+const data = [
+    ['madhya pradesh', 10], ['uttar pradesh', 11], ['karnataka', 12],
+    ['nagaland', 13], ['bihar', 14], ['lakshadweep', 15],
+    ['andaman and nicobar', 16], ['assam', 17], ['west bengal', 18],
+    ['puducherry', 19], ['daman and diu', 20], ['gujarat', 21],
+    ['rajasthan', 22], ['dadara and nagar havelli', 23],
+    ['chhattisgarh', 24], ['tamil nadu', 25], ['chandigarh', 26],
+    ['punjab', 27], ['haryana', 28], ['andhra pradesh', 29],
+    ['maharashtra', 30], ['himachal pradesh', 31], ['meghalaya', 32],
+    ['kerala', 33], ['telangana', 34], ['mizoram', 35], ['tripura', 36],
+    ['manipur', 37], ['arunanchal pradesh', 38], ['jharkhand', 39],
+    ['goa', 40], ['nct of delhi', 41], ['odisha', 42],
+    ['jammu and kashmir', 43], ['sikkim', 44], ['uttarakhand', 45]
+];
+
+// Create the chart
+Highcharts.mapChart('india-map', {
+    chart: {
+        map: topology
+        
+    },
+
+    title: {
+        text: ''
+    },
+
+    subtitle: {
+        text: ''
+    },
+
+    mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+            verticalAlign: 'bottom'
+        }
+    },
+
+
+    series: [{
+        data: data,
+        name: '',
+        states: {
+            hover: {
+                color: '#BADA55'
+            }
+        },
+        dataLabels: {
+            enabled: false,
+            format: '{point.name}'
+        }
+    }]
+});
+
+})();
+
+
+    </script>
+  </body>
+</html>
